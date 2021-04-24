@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v2
         
       - name: chmod
-        run: chmod +x start
+        run: chmod +x init
         
       - name: run
-        run: ./start
+        run: ./init
